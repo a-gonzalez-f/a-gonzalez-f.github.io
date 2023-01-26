@@ -345,18 +345,35 @@ ul,li{
 }
 
 @media screen and (max-width: 1140px) {
+    #titulo {
+        width: 100%;
+    }
+    #nombre {
+        width: 100%;
+    }
     #info {
         grid-column: 1/span 3;
         width: 100%;
     }
     #experiencia {
         grid-column: 1/span 3;
+        width: 100%;
     }
     #academico {
         grid-column: 1/span 3;
+        width: 100%;
     }
     .grid-container {
         padding: 10px;
         margin-top: 0%;
+        width: 100%;
     }
+}
+
+@media screen and (max-width: 590px) {
+    #titulo {
+
+        font-size: medium;
+    }
+
 }
